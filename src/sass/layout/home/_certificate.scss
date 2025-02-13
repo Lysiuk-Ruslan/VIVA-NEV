@@ -1,0 +1,129 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.certificate {
+
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 50px;
+        padding-bottom: 62px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+}
+
+
+.certificate-content {
+
+    text-align: center;
+    margin-bottom: 24px;
+
+    color: var(--text, #352D25);
+
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 130%;
+
+    letter-spacing: 0.28px;
+
+    @media screen and (min-width: 768px) {
+
+
+        font-size: 40px;
+        line-height: 150%;
+
+        letter-spacing: 0.4px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        font-size: 80px;
+        line-height: 150%;
+        letter-spacing: 0.8px;
+    }
+}
+
+// .swiper {
+//     width: 100%;
+//     height: 100%;
+// }
+
+// .swiper-wrapper {
+//     margin-bottom: 16px;
+
+//     @media screen and (min-width: 768px) {
+//         margin-bottom: 80px;
+//     }
+
+
+// }
+
+// .swiper-slide {
+
+//     text-align: center;
+//     font-size: 18px;
+//     background: #fff;
+
+//     /* Center slide text vertically */
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     border-radius: 8px;
+
+
+
+
+// }
+
+// .swiper-slide-container {
+//     @media screen and (min-width: 768px) {
+//         width: 349px !important;
+//         height: 349px;
+//     }
+
+//     @media screen and (min-width: 1200px) {
+//         width: 585px !important;
+//         height: 500px;
+//     }
+// }
+
+// .swiper-slide img {
+//     display: block;
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover;
+//     border-radius: 8px;
+
+
+
+// }
+
+// .swiper-pagination-bullet {
+//     background: #452a0c;
+// }
+
+// .swiper-pagination {
+//     position: static;
+//     margin-bottom: 24px;
+// }

@@ -1,2 +1,29 @@
-@import './common';
-@import './example';
+// base styles
+
+@import './base/reset';
+// @import './base/variables';
+// @import './base/common';
+@import './base/container';
+
+// utils styles
+
+// @import './utils/mixins.scss';
+// @import './utils/placeholders';
+// @import './base/container';
+
+// layout home styles
+
+@import './layout/home/menu';
+@import './layout/home/banner';
+@import './layout/home/aboutMe';
+@import './layout/home/advantages';
+@import './layout/home/favor';
+@import './layout/home/myWorks';
+@import './layout/home/form';
+@import './layout/home/certificate';
+@import './layout/home/footer';
+
+
+// * {
+//     outline: 1px solid red;
+// }

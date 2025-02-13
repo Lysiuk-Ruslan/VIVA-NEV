@@ -1,0 +1,236 @@
+.form {
+    background: var(--brown, #FFF9EF);
+    padding-top: 30px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 40px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 60px;
+    }
+}
+
+
+
+.form-text {
+    text-align: center;
+    margin-bottom: 4px;
+
+    color: var(--text, #352D25);
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 130%;
+
+    letter-spacing: 0.28px;
+
+    @media screen and (min-width: 768px) {
+        font-size: 40px;
+        line-height: 150%;
+
+        letter-spacing: 0.4px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        font-size: 52px;
+        font-weight: 400;
+
+    }
+}
+
+.form-text-item {
+    text-align: center;
+    margin-bottom: 30px;
+
+    color: var(--text, #352D25);
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 130%;
+
+    letter-spacing: 0.28px;
+
+    @media screen and (min-width: 768px) {
+
+        font-size: 40px;
+        line-height: 150%;
+
+        letter-spacing: 0.4px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 60px;
+
+        font-size: 52px;
+        font-weight: 400;
+
+    }
+}
+
+.form-list {
+    text-align: center;
+    margin-bottom: 16px;
+
+    color: var(--braun, #543310);
+
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    @media screen and (min-width: 768px) {
+
+        line-height: 140%;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 24px;
+
+        font-size: 40px;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+}
+
+.form-subject {
+    text-align: center;
+
+
+}
+
+.form-subject-slogan input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.10);
+
+    @media screen and (min-width: 768px) {
+        width: 349px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 500px;
+        height: 60px;
+        padding: 16px;
+
+    }
+}
+
+.form-subject-text input {
+    margin-bottom: 24px;
+
+    width: 100%;
+    padding: 10px 10px 32px 10px;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: rgba(255, 255, 255, 0.10);
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+
+        width: 349px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 500px;
+        height: 100px;
+        padding: 16px;
+        align-items: flex-start;
+
+    }
+}
+
+.form-btn {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 150px;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-width: 0;
+    border-radius: 24px;
+    background: var(--brand, linear-gradient(180deg, #C08D58 0%, #FEF1BA 100%));
+    box-shadow: 0px 4px 4px 0px rgba(238, 215, 160, 0.20);
+
+    &:hover,
+    &:focus {
+        background: #C08D58;
+        color: var(--brown, #FFF9EF);
+    }
+
+    @media screen and (min-width: 480px) {
+        margin-left: 60px;
+
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-left: 289px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 502px;
+
+        padding: 20px 40px;
+
+
+
+    }
+}
+
+.form-icon {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 200px;
+    height: 255px;
+    flex-shrink: 0;
+
+    @media screen and (min-width: 480px) {
+        margin-top: -50px;
+        margin-left: auto;
+        margin-right: 0px;
+
+        width: 200px;
+        height: 255px;
+        flex-shrink: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-top: -210px;
+        width: 200px;
+        height: 255px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: -350px;
+
+        width: 350px;
+        height: 434px;
+
+    }
+}
