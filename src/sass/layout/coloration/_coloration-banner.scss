@@ -1,0 +1,91 @@
+.inner {
+    background-image: url(../images/coloranion/mobile/coloration-mobile-baner.webp);
+
+    background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/coloranion/tablet/coloration-tablet-baner.webp);
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: url(../images/coloranion/desktop/coloration-desktop-baner.webp);
+    }
+}
+
+.inner-coloration {
+    padding-top: 145px;
+    padding-bottom: 145px;
+}
+
+
+.coloration-banner-title {
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    background: var(--brand, linear-gradient(180deg, #C08D58 0%, #FEF1BA 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+
+        font-family: Roboto;
+        font-size: 48px;
+        line-height: 150%;
+
+        letter-spacing: 0.48px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+
+        font-size: 80px;
+        font-style: italic;
+        font-weight: 500;
+
+        letter-spacing: 0.8px;
+    }
+}
+
+.coloration-banner-subtitle {
+    padding-left: 52px;
+    padding-right: 52px;
+
+    color: #FEFDFA;
+    text-align: center;
+
+    /* H3 mobile */
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%;
+
+    letter-spacing: 0.24px;
+
+    @media screen and (min-width: 768px) {
+        padding-left: 76px;
+        padding-right: 76px;
+
+        font-size: 28px;
+
+        letter-spacing: 0.28px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-left: 45px;
+        padding-right: 45px;
+
+        font-size: 40px;
+
+        letter-spacing: 0.4px;
+    }
+}

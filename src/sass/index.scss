@@ -12,7 +12,6 @@
 // @import './base/container';
 
 // layout home styles
-
 @import './layout/home/menu';
 @import './layout/home/banner';
 @import './layout/home/aboutMe';
@@ -23,6 +22,8 @@
 @import './layout/home/certificate';
 @import './layout/home/footer';
 
+// layout coloration styles
+@import '../sass/layout/coloration/coloration-banner';
 
 // * {
 //     outline: 1px solid red;
