@@ -71,3 +71,10 @@ let swiper = new Swiper('.swiper', {
 
 
 });
+
+// slider coloration-reviews
+
+
+
+
+

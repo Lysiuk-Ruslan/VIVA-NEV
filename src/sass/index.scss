@@ -4,6 +4,7 @@
 // @import './base/variables';
 // @import './base/common';
 @import './base/container';
+@import './base/swiper';
 
 // utils styles
 
@@ -25,7 +26,11 @@
 // layout coloration styles
 @import '../sass/layout/coloration/coloration-banner';
 @import '../sass/layout/coloration/coloration-foam-baths';
+@import '../sass/layout/coloration/coloration-painting';
+@import '../sass/layout/coloration/coloration-reviews';
+@import '../sass/layout/coloration/coloration-types-of-painting';
+@import '../sass/layout/coloration/coloration-painting-proces';
 
-// * {
-//     outline: 1px solid red;
-// }
+* {
+    outline: 1px solid red;
+}

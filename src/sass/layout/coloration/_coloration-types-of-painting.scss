@@ -1,0 +1,166 @@
+.painting-container {
+    padding-top: 50px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 80px;
+    }
+}
+
+.painting-title {
+    background-size: cover;
+    background-image: url(../images/coloranion/mobile/Rectangle\ 12330.webp);
+    padding: 64px;
+    margin-bottom: 20px;
+
+    text-align: center;
+
+    color: var(--1, #FFFDFC);
+
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 130%;
+
+    letter-spacing: 0.28px;
+
+    border-radius: 36px;
+
+    @media screen and (min-width: 768px) {
+        background-image: url(../images/coloranion/tablet/Rectangle\ 12330.webp);
+        padding: 50px 137px;
+
+        margin-bottom: 30px;
+
+        font-size: 36px;
+        line-height: 150%;
+
+        letter-spacing: 0.4px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: url(../images/coloranion/desktop/Rectangle\ 12330.webp);
+
+        padding: 80px 107px;
+
+        font-size: 70px;
+
+        letter-spacing: 0.8px;
+    }
+
+}
+
+.painting-text {
+    margin-bottom: 20px;
+
+    color: var(--text, #352D25);
+    text-align: center;
+
+    /* H3 mobile */
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%;
+    /* 33.6px */
+    letter-spacing: 0.24px;
+
+    @media screen and (min-width: 768px) {
+
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+
+        width: 453px;
+
+        font-size: 28px;
+
+        font-weight: 500;
+        line-height: 130%;
+
+        letter-spacing: 0.28px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 0;
+        margin-right: 0;
+
+        width: 1130px;
+        text-align: left;
+        font-size: 37px;
+
+        line-height: 150%;
+
+    }
+}
+
+.painting-items {
+
+    padding-bottom: 20px;
+
+    @media screen and (min-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+}
+
+
+.painting-item {
+    margin: 10px;
+
+
+    @media screen and (min-width: 480px) {
+        flex-basis: calc((100% - 2 * 20px) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 3 * 20px) / 3);
+    }
+}
+
+.painting-item-image {
+
+
+    @media screen and (min-width: 480px) {
+
+        width: 210px;
+        height: 210px;
+
+    }
+
+    @media screen and (min-width: 768px) {
+
+        width: 349px;
+        height: 349px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        width: 357px;
+        height: 357px;
+
+    }
+}
+
+.painting-items-bloc1 {
+    display: contents;
+}
+
+.painting-items-bloc2 {
+    display: contents;
+
+    @media screen and (min-width: 1200px) {
+
+        display: flex;
+        width: 1130px;
+        justify-content: center;
+    }
+}
