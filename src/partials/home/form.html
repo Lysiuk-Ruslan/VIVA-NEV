@@ -3,21 +3,29 @@
         <h2 class="form-text">Залишилися запитання? </h2>
         <p class="form-text-item">Ми з Вами зв’яжемося</p>
         <p class="form-list">Залиште Ваші дані </p>
-        <form action="Ім'я">
+        <form action="sender.php" method="post">
+
+
             <label htmlFor=""></label>
             <ul class="form-subject">
                 <li class="form-subject-slogan">
-                    <input type="Ім'я" name="Ім'я" id="Ім'я" placeholder="Ім'я"></input>
+                    <input type="text" class="name" name="name" placeholder="Ім'я" required>
                 </li>
                 <li class="form-subject-slogan">
-                    <input type="Номер телефону" name="Номер телефону" id="Номер телефону"
-                        placeholder="Номер телефону"></input>
+                    <input type="text" name="surname" placeholder="Прізвище" required>
+                </li>
+                <li class="form-subject-slogan">
+                    <input type="text" class="phone" name="phone" placeholder="Телефон">
+                </li>
+                <li class="form-subject-slogan">
+                    <input type="email" name="email" placeholder="Email" required>
                 </li>
                 <li class="form-subject-text">
-                    <input type="Текст" name="Текст" id="Текст" placeholder="Текст"></input>
+                    <input name="text" id="" cols="30" rows="10" placeholder="Введіть текст"></input>
                 </li>
             </ul>
-            <button class="form-btn">Надіслати</button>
+            <button type="button" class="send-form form-btn">Відправити</button>
+            <div class="status"></div>
         </form>
         <img class="form-icon" src="./svg/Form.svg" alt="alt-text" width="140" height="142" />
     </div>

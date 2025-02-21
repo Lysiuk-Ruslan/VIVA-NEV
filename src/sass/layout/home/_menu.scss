@@ -12,7 +12,7 @@ body {
 
     // background: rgba(255, 255, 255, 0.04);
 
-    background-color: #543310;
+    background-color: var(--braun, #2B1C14);
     display: flex;
     justify-content: unset;
     width: 100%;
@@ -68,9 +68,14 @@ body {
     text-decoration: none;
 }
 
+
+
+
 .menu .link:hover,
 .menu .link:focus {
     text-decoration: underline;
+
+
 }
 
 svg {
@@ -112,7 +117,7 @@ svg {
     width: 100vw;
     height: 100vh;
     padding: 32px;
-    background-color: #543310;
+    background-color: var(--braun, #2B1C14);
     ;
     z-index: 999;
 

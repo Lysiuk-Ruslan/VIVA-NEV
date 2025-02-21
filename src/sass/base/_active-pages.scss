@@ -1,0 +1,14 @@
+.mobile-menu,
+.menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+.mobile-menu,
+.menu a.active {
+    color: #C08D58;
+    // background: blue;
+    // border-radius: 5px;
+}

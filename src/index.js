@@ -72,7 +72,47 @@ let swiper = new Swiper('.swiper', {
 
 });
 
-// slider coloration-reviews
+// active pages
+
+$(document).ready(function () {
+    var location = window.location.pathname; // Отримуємо поточний шлях (без домену)
+
+    $('.menu a').each(function () {
+        var link = $(this).attr('href'); // Отримуємо href кожного посилання
+
+        // Якщо шлях збігається або сторінка головна ("/" або "index.html")
+        if (location.endsWith(link) || (location === '/' && link === 'index.html')) {
+            $(this).addClass('active'); // Додаємо клас "active"
+        }
+    });
+
+
+});
+
+// modal
+
+document.addEventListener("DOMContentLoaded", function () {
+    var modal = document.getElementById("modal");
+    var openModal = document.getElementById("openModal");
+    var closeModal = document.querySelector(".close");
+
+    // Відкриття модального вікна за натисканням кнопки
+    openModal.addEventListener("click", function () {
+        modal.style.display = "flex";
+    });
+
+    // Закриття при натисканні на "×"
+    closeModal.addEventListener("click", function () {
+        modal.style.display = "none";
+    });
+
+    // Закриття при натисканні поза вікном
+    window.addEventListener("click", function (event) {
+        if (event.target === modal) {
+            modal.style.display = "none";
+        }
+    });
+});
 
 
 

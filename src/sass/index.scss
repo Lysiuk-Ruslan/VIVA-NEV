@@ -1,8 +1,8 @@
 // base styles
 
 @import './base/reset';
-// @import './base/variables';
-// @import './base/common';
+@import './base/modal';
+@import './base/active-pages';
 @import './base/container';
 @import './base/swiper';
 
@@ -30,6 +30,7 @@
 @import '../sass/layout/coloration/coloration-reviews';
 @import '../sass/layout/coloration/coloration-types-of-painting';
 @import '../sass/layout/coloration/coloration-painting-proces';
+@import '../sass/layout/coloration/coloration-form';
 
 // * {
 //     outline: 1px solid red;

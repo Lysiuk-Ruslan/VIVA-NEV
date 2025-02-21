@@ -219,6 +219,14 @@
     }
 }
 
+.footer-address .footer-address-list:hover,
+.footer-address .footer-address-list:focus {
+    text-decoration: underline;
+
+
+}
+
+
 .footer-address-list {
     display: flex;
     text-align: center;
