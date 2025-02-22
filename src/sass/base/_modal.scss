@@ -16,13 +16,22 @@
 
 /* Стилі для контенту модального вікна */
 .modal-content {
-    background: white;
-    padding: 20px;
+    position: fixed;
+    /* Фіксоване позиціонування */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Центрує вікно */
+
+    text-align: center;
+    background: #fff;
     border-radius: 10px;
     width: 300px;
-    text-align: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-shadow: 0 4px 10px #0003;
 }
+
+
 
 /* Кнопка закриття */
 .close {
@@ -52,8 +61,10 @@ form input.error {
     border-color: red;
 }
 
+
+
 /* Кнопка відправки */
-button {
+.btn-form {
     width: 100%;
     padding: 10px;
     background: var(--brand, linear-gradient(180deg, #C08D58 0%, #FEF1BA 100%));

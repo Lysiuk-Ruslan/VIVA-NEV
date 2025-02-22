@@ -219,28 +219,53 @@
     }
 }
 
-.footer-address .footer-address-list:hover,
-.footer-address .footer-address-list:focus {
-    text-decoration: underline;
-
-
-}
-
 
 .footer-address-list {
     display: flex;
     text-align: center;
-
+    align-items: center;
+    /* Центруємо по вертикалі */
     justify-content: center;
 
+    transition: background-color 0.3s ease;
+    /* Плавний перехід для фону */
+    padding: 5px;
+    /* Відступ для зручності */
 
+
+}
+
+.footer-address-list img {
+    transition: transform 0.3s ease;
+    /* Плавний перехід для зображення */
+}
+
+.footer-address-list p {
+    transition: transform 0.3s ease;
+    /* Плавний перехід для тексту */
+    margin: 0px;
+    /* Вимикаємо стандартний відступ абзацу */
+}
+
+
+
+.footer-address-list:focus img,
+.footer-address-list:hover img {
+    transform: scale(1.2);
+    /* Збільшуємо іконку до 120% */
+}
+
+.footer-address-list:focus p,
+.footer-address-list:hover p {
+    transform: scale(1.1);
+    /* Збільшуємо текст до 110% */
 }
 
 .footer-icon {
     width: 20px;
     height: 20px;
 
-    margin-right: 10px;
+    margin-right: 25px;
     align-items: center;
 
     @media screen and (min-width: 1200px) {
@@ -303,6 +328,17 @@
 
         margin-right: 20px;
     }
+}
+
+.footer-social-icons a img {
+    transition: transform 0.3s ease;
+    /* Додаємо плавний перехід */
+}
+
+.footer-social-icons a:focus img,
+.footer-social-icons a:hover img {
+    transform: scale(1.2);
+    /* Збільшуємо зображення до 120% */
 }
 
 .footer-studio {

@@ -3,30 +3,41 @@
         <h2 class="form-text">Залишилися запитання? </h2>
         <p class="form-text-item">Ми з Вами зв’яжемося</p>
         <p class="form-list">Залиште Ваші дані </p>
-        <form action="sender.php" method="post">
-
-
-            <label htmlFor=""></label>
+        <form id="contactForm1">
+            <input type="hidden" name="page" value="Головна сторінка">
             <ul class="form-subject">
                 <li class="form-subject-slogan">
-                    <input type="text" class="name" name="name" placeholder="Ім'я" required>
+                    <input type="text" name="surname" id="surname1" placeholder="Ваше прізвище">
+                    <p class="error-message" id="surnameError1"></p>
                 </li>
                 <li class="form-subject-slogan">
-                    <input type="text" name="surname" placeholder="Прізвище" required>
+                    <input type="text" name="name" id="name1" placeholder="Ваше ім'я">
+                    <p class="error-message" id="nameError1"></p>
                 </li>
                 <li class="form-subject-slogan">
-                    <input type="text" class="phone" name="phone" placeholder="Телефон">
+                    <input type="email" name="email" id="email1" placeholder="Ваш Email">
+                    <p class="error-message" id="emailError1"></p>
                 </li>
                 <li class="form-subject-slogan">
-                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="tel" name="phone" id="phone1" placeholder="Ваш телефон">
+                    <p class="error-message" id="phoneError1"></p>
                 </li>
                 <li class="form-subject-text">
-                    <input name="text" id="" cols="30" rows="10" placeholder="Введіть текст"></input>
+                    <textarea name="text" id="text1" placeholder="Ваше повідомлення"></textarea>
+                    <p class="error-message" id="textError1"></p>
                 </li>
             </ul>
-            <button type="button" class="send-form form-btn">Відправити</button>
-            <div class="status"></div>
+            <button type="submit" class=" form-btn">Відправити</button>
         </form>
-        <img class="form-icon" src="./svg/Form.svg" alt="alt-text" width="140" height="142" />
+        <img class="form-icon" src="./static/svg/Form.svg" alt="alt-text" width="140" height="142" />
+
+
+        <!-- Модальне вікно для повідомлення -->
+        <div id="messageModal1" class="message-modal">
+            <div class="message-modal-content">
+                <span class="message-close" onclick="closeMessageModal('messageModal1')">&times;</span>
+                <p id="responseMessage1"></p>
+            </div>
+        </div>
     </div>
 </section>

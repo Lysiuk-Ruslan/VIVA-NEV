@@ -1,28 +1,72 @@
 <section class="coloration-form">
+
     <div class="container container-coloration-form">
+
         <h2 class="coloration-form-title">
             Записатися на фарбування
         </h2>
-        <form action="sender.php" method="post">
 
-            <label htmlFor=""></label>
+        <form id="contactForm2">
+
+            <input type="hidden" name="page" value="Сторінка Фарбування">
+
             <ul class="coloration-form-subject">
+
                 <li class="coloration-form-subject-slogan">
-                    <input type="text" class="name" name="name" placeholder="Ім'я" required>
+
+                    <input type="text" name="surname" id="surname2" placeholder="Ваше прізвище">
+
+                    <p class="error-message" id="surnameError2"></p>
+
                 </li>
+
                 <li class="coloration-form-subject-slogan">
-                    <input type="text" name="surname" placeholder="Прізвище" required>
+
+                    <input type="text" name="name" id="name2" placeholder="Ваше ім'я">
+
+                    <p class="error-message" id="nameError2"></p>
+
                 </li>
+
                 <li class="coloration-form-subject-slogan">
-                    <input type="text" class="phone" name="phone" placeholder="Телефон">
+
+                    <input type="email" name="email" id="email2" placeholder="Ваш Email">
+
+                    <p class="error-message" id="emailError2"></p>
+
                 </li>
-                <li class="coloration-form-subject-slogan"><input type="email" name="email" placeholder="Email"
-                        required></li>
-                <li class="coloration-form-subject-text"><input name="text" id="" cols="30" rows="10"
-                        placeholder="Введіть текст"></input></li>
+
+                <li class="coloration-form-subject-slogan">
+
+                    <input type="tel" name="phone" id="phone2" placeholder="Ваш телефон">
+
+                    <p class="error-message" id="phoneError2"></p>
+
+                </li>
+
+                <li class="coloration-form-subject-text">
+
+                    <textarea name="text" id="text2" placeholder="Ваше повідомлення"></textarea>
+
+                    <p class="error-message" id="textError2"></p>
+
+                </li>
+
             </ul>
-            <button type="button" class="coloration-form-btn">Записатися</button>
-            <div class="status"></div>
+
+            <button type="submit" class="coloration-form-btn">Записатися</button>
+
         </form>
+
+        <!-- Модальне вікно для повідомлення -->
+        <!-- Модальне вікно для повідомлення -->
+        <div id="messageModal2" class="message-modal">
+            <div class="message-modal-content">
+                <span class="message-close" onclick="closeMessageModal('messageModal2')">&times;</span>
+                <p id="responseMessage2"></p>
+            </div>
+        </div>
+
     </div>
+
 </section>

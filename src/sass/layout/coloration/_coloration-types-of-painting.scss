@@ -12,7 +12,7 @@
 
 .painting-title {
     background-size: cover;
-    background-image: url(../images/coloranion/mobile/Rectangle\ 12330.webp);
+    background-image: url(../static/images/coloranion/mobile/Rectangle\ 12330.webp);
     padding: 64px;
     margin-bottom: 20px;
 
@@ -31,7 +31,7 @@
     border-radius: 36px;
 
     @media screen and (min-width: 768px) {
-        background-image: url(../images/coloranion/tablet/Rectangle\ 12330.webp);
+        background-image: url(../static/images/coloranion/tablet/Rectangle\ 12330.webp);
         padding: 50px 137px;
 
         margin-bottom: 30px;
@@ -44,7 +44,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: url(../images/coloranion/desktop/Rectangle\ 12330.webp);
+        background-image: url(../static/images/coloranion/desktop/Rectangle\ 12330.webp);
 
         padding: 80px 107px;
 

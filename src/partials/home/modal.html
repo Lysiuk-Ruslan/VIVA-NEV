@@ -1,15 +1,24 @@
 <!-- Модальне вікно -->
 <div id="modal" class="modal" style="display: none;">
-    <form action="sender.php" method="post" class="modal-content">
+    <form id="contactForm" class="modal-content">
 
         <span class="close">&times;</span>
         <h2>Залиште заявку</h2>
-        <input type="text" class="name" name="name" placeholder="Ім'я" required>
-        <input type="text" name="surname" placeholder="Прізвище" required>
-        <input type="text" class="phone" name="phone" placeholder="Телефон">
-        <input type="email" name="email" placeholder="Email" required>
-        <textarea name="text" id="" cols="30" rows="10" placeholder="Введіть текст"></textarea>
-        <button type="button" class="send-form">Відправити</button>
-        <div class="status"></div>
+        <input type="text" name="surname" id="surname" placeholder="Ваше прізвище" required>
+        <p class="error-message" id="surnameError"></p>
+
+        <input type="text" name="name" id="name" placeholder="Ваше ім'я" required>
+        <p class="error-message" id="nameError"></p>
+
+        <input type="email" name="email" id="email" placeholder="Ваш Email" required>
+        <p class="error-message" id="emailError"></p>
+
+        <input type="tel" name="phone" id="phone" placeholder="Ваш телефон" required>
+        <p class="error-message" id="phoneError"></p>
+
+        <textarea name="text" id="text" placeholder="Ваше повідомлення" required></textarea>
+        <p class="error-message" id="textError"></p>
+        <button type="submit" class="btn-form">Відправити</button>
+        <p class="message" id="responseMessage"></p>
     </form>
 </div>

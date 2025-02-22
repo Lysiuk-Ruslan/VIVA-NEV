@@ -1,14 +1,14 @@
 .inner {
-    background-image: url(../images/coloranion/mobile/coloration-mobile-baner.webp);
+    background-image: url(../static/images/coloranion/mobile/coloration-mobile-baner.webp);
 
     background-size: cover;
 
     @media screen and (min-width: 768px) {
-        background-image: url(../images/coloranion/tablet/coloration-tablet-baner.webp);
+        background-image: url(../static/images/coloranion/tablet/coloration-tablet-baner.webp);
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: url(../images/coloranion/desktop/coloration-desktop-baner.webp);
+        background-image: url(../static/images/coloranion/desktop/coloration-desktop-baner.webp);
     }
 }
 

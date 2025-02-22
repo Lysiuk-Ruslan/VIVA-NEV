@@ -1,14 +1,14 @@
 .coloration-form {
-    background-image: url(../images/coloranion/mobile/coloration-mobile-baner.webp);
+    background-image: url(../static/images/coloranion/mobile/coloration-mobile-baner.webp);
 
     background-size: cover;
 
     @media screen and (min-width: 768px) {
-        background-image: url(../images/coloranion/tablet/coloration-tablet-baner.webp);
+        background-image: url(../static/images/coloranion/tablet/coloration-tablet-baner.webp);
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: url(../images/coloranion/desktop/coloration-desktop-baner.webp);
+        background-image: url(../static/images/coloranion/desktop/coloration-desktop-baner.webp);
     }
 }
 
@@ -88,7 +88,7 @@ form input.error {
 }
 
 
-.coloration-form-subject-text input {
+.coloration-form-subject-text textarea {
     margin-bottom: 24px;
 
     width: 100%;
@@ -121,8 +121,6 @@ form input.error {
         width: 500px;
         height: 100px;
         padding: 16px;
-        align-items: flex-start;
-
     }
 }
 

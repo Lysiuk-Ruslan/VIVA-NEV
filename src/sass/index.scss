@@ -1,36 +1,36 @@
 // base styles
 
-@import './base/reset';
-@import './base/modal';
-@import './base/active-pages';
-@import './base/container';
-@import './base/swiper';
+@use './base/reset';
+@use './base/modal';
+@use './base/active-pages';
+@use './base/container';
+@use './base/swiper';
 
 // utils styles
 
-// @import './utils/mixins.scss';
-// @import './utils/placeholders';
-// @import './base/container';
+// @use './utils/mixins.scss';
+// @use './utils/placeholders';
+// @use './base/container';
 
 // layout home styles
-@import './layout/home/menu';
-@import './layout/home/banner';
-@import './layout/home/aboutMe';
-@import './layout/home/advantages';
-@import './layout/home/favor';
-@import './layout/home/myWorks';
-@import './layout/home/form';
-@import './layout/home/certificate';
-@import './layout/home/footer';
+@use './layout/home/menu';
+@use './layout/home/banner';
+@use './layout/home/aboutMe';
+@use './layout/home/advantages';
+@use './layout/home/favor';
+@use './layout/home/myWorks';
+@use './layout/home/form';
+@use './layout/home/certificate';
+@use './layout/home/footer';
 
 // layout coloration styles
-@import '../sass/layout/coloration/coloration-banner';
-@import '../sass/layout/coloration/coloration-foam-baths';
-@import '../sass/layout/coloration/coloration-painting';
-@import '../sass/layout/coloration/coloration-reviews';
-@import '../sass/layout/coloration/coloration-types-of-painting';
-@import '../sass/layout/coloration/coloration-painting-proces';
-@import '../sass/layout/coloration/coloration-form';
+@use '../sass/layout/coloration/coloration-banner';
+@use '../sass/layout/coloration/coloration-foam-baths';
+@use '../sass/layout/coloration/coloration-painting';
+@use '../sass/layout/coloration/coloration-reviews';
+@use '../sass/layout/coloration/coloration-types-of-painting';
+@use '../sass/layout/coloration/coloration-painting-proces';
+@use '../sass/layout/coloration/coloration-form';
 
 // * {
 //     outline: 1px solid red;

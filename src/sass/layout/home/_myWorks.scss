@@ -1,5 +1,5 @@
 .my-works {
-    background-image: url(../images/desktop/Rectangle.webp);
+    background-image: url(../static/images/desktop/Rectangle.webp);
     background-size: cover;
 }
 
@@ -71,6 +71,9 @@
     align-items: center;
     padding-bottom: 33px;
 
+    transition: background-color 0.3s ease;
+    /* Плавний перехід для фону */
+
     @media screen and (min-width: 768px) {
         padding-bottom: 40px;
     }
@@ -95,6 +98,9 @@
     font-weight: 400;
     line-height: 120%;
 
+    transition: transform 0.3s ease;
+    /* Плавний перехід для тексту */
+
     @media screen and (min-width: 768px) {
 
         font-size: 24px;
@@ -117,8 +123,20 @@
 
 .my-works-social-icon {
     width: 24px;
+    transition: transform 0.3s ease;
+    /* Плавний перехід для іконки */
 
     @media screen and (min-width: 1200px) {
         width: 40px;
     }
+}
+
+a:hover .my-works-social-icon {
+    transform: scale(1.2);
+    /* Збільшуємо іконку до 120% */
+}
+
+a:hover .my-works-social-text {
+    transform: scale(1.1);
+    /* Збільшуємо текст до 110% */
 }
