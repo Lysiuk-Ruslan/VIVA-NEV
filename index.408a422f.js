@@ -1,2 +1,0 @@
-jQuery(document).ready((function(){$(".phone").mask("+38 (099) 999-99-99"),jQuery(".send-form").click((function(){var t=jQuery(this).closest("form");if(t.valid()){t.css("opacity",".5");var a=t.attr("action");jQuery.ajax({url:a,type:"post",dataType:"html",data:t.serialize(),success:function(a){t.html(a),t.css("opacity","1")},error:function(){t.find(".status").html("серверна помилка")}})}}))}));
-//# sourceMappingURL=index.408a422f.js.map
